@@ -176,7 +176,7 @@ class notepad extends JFrame implements ActionListener
                         s1=br.readLine();
                         while ((s2= br.readLine())!=null)
                         {
-                            s1=s2+"\n";
+                            s1=s1+"\n"+s2;
                         }
                         //all the content of the file copied into s1
                         t.setText(s1);
